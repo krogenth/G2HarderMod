@@ -51,7 +51,7 @@ jobs:
       
       - name: Pack Files
         run: |
-          7z a ./${{ env.RELEASE_DIRECTORY }}/${{ github.repository }}-${{ steps.version_info.outputs.build_version }}.zip ./${{ env.MOD_DIRECTORY }}
+          7z a ./${{ env.RELEASE_DIRECTORY }}/${{ github.event.repository.name }}-${{ steps.version_info.outputs.build_version }}.zip ./${{ env.MOD_DIRECTORY }}
 
       - name: Push Release
         uses: ncipollo/release-action@v1
