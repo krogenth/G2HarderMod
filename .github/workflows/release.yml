@@ -1,0 +1,64 @@
+name: Release Job
+
+on:
+  push:
+    branches: [ main ]
+
+concurrency: release
+
+env:
+  SOLUTION_FILE_PATH: .
+  BASE_VERSION: 0.1
+  RELEASE_DIRECTORY: "release_output"
+  MOD_DIRECTORY: "mod"
+
+jobs:
+  tag:
+    name: Create Release Tag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Version Info
+        id: version_info
+        run: |
+          echo "build_version=${{ env.BASE_VERSION }}.${{ github.run_number }}" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Create Tag
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ steps.version_info.outputs.build_version }}',
+              sha: context.sha
+            })
+  
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get Version Info
+        id: version_info
+        run: |
+          echo "build_version=${{ env.BASE_VERSION }}.${{ github.run_number }}" >> $GITHUB_OUTPUT
+          echo "git_short_hash=$(git rev-parse --short "${{ github.sha }}")" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Create Output Directory
+        run: "mkdir ${{ env.RELEASE_DIRECTORY }}"
+      
+      - name: Pack Files
+        run: |
+          7z a ./${{ env.RELEASE_DIRECTORY }}/${{ github.repository }}-${{ steps.version_info.outputs.build_version }}.zip ./${{ env.MOD_DIRECTORY }}
+
+      - name: Push Release
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{ steps.version_info.outputs.build_version }}
+          artifacts: "${{ env.RELEASE_DIRECTORY }}/*.tar.gz,${{ env.RELEASE_DIRECTORY }}/*.zip"
+          tag: ${{ steps.version_info.outputs.build_version }}
+          allowUpdates: true
+          omitBodyDuringUpdate: true
+          replacesArtifacts: true
