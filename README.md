@@ -15,3 +15,11 @@ Once `G2DataGUI` is downloaded, copy the `G2DataGUI.exe` and accompanying `*.dll
 For any other work, you will want a hex editor.
 
 In order to get your changes added to the repository, you may either submit them through a pull request from a forked version of this repository, or submit the changes directly to the maintainer of this repository to be submitted as a pull request.
+
+# Game Documentation
+
+All documentation regarding the game files can be found in the `G2DataGUI` [documentation](https://github.com/krogenth/G2DataGUI/tree/main/documentation) directory.
+
+# Changelog
+
+The changelog can be found [here](https://github.com/krogenth/G2HarderMod/blob/main/mod/changelog.md)
