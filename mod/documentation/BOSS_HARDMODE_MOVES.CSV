@@ -124,12 +124,7 @@ Demon Horde Slash,0,75,2,Physical Damage,200,370,230,All Enemies,False,0,0,0,210
 Wailing Soul Slash,0,50,9,Physical Damage,200,560,200,One Enemy,False,0,0,0,150,15000,Physical Attack,True,8000,7000,0,Fire,0,0,0,0,0,0,0,0
 Def-Loss,5,0,2,Enemy Buff/Debuff,0,0,0,All Enemies,False,0,0,0,90,11000,Def-Loss,False,0,0,0,Fire,0,0,0,0,-1,0,0,0
 Shhh!,10,0,32,Enemy Buff/Debuff,0,0,0,Area Enemies,False,0,0,400,120,12000,Shhh!,False,0,0,0,Fire,0,32,50,0,0,0,0,0
-Attack,0,0,1,Physical Damage,220,280,160,Enemy Line,True,294,150,200,30,9999,Physical Attack,True,0,0,100,Fire,7,0,0,0,0,0,0,0
-Zap!,24,0,1,Magical Damage,220,170,200,Area Enemies,False,0,0,600,150,13000,Zap!,False,1000,0,50,Lightning,10,4,10,0,0,0,0,0
-Stram,6,0,21,Enemy Buff/Debuff,0,0,0,One Enemy,False,0,0,0,120,12000,Stram,False,0,0,0,Fire,0,0,0,-2,0,0,0,0
-Def-Loss,5,0,2,Enemy Buff/Debuff,0,0,0,All Enemies,False,0,0,0,90,12000,Def-Loss,False,0,0,0,Fire,0,0,0,0,-1,0,0,0
-Healer,12,0,38,Restore HP(MEN),0,5000,100,One Ally,False,0,0,0,150,13000,Healer,False,0,0,0,Fire,0,0,0,0,0,0,0,0
-Attack,0,0,1,Physical Damage,220,280,160,Enemy Line,True,294,150,200,60,9999,Physical Attack,False,2500,5000,100,Blizzard,7,0,0,0,0,0,0,0
+Attack,0,0,1,Physical Damage,700,280,160,Enemy Line,True,294,150,200,30,9999,Physical Attack,True,0,0,100,Fire,7,0,0,0,0,0,0,0
 Zap!,24,0,1,Magical Damage,220,170,200,Area Enemies,False,0,0,600,150,13000,Zap!,False,1000,0,50,Lightning,10,4,10,0,0,0,0,0
 Stram,6,0,21,Enemy Buff/Debuff,0,0,0,One Enemy,False,0,0,0,120,12000,Stram,False,0,0,0,Fire,0,0,0,-2,0,0,0,0
 Def-Loss,5,0,2,Enemy Buff/Debuff,0,0,0,All Enemies,False,0,0,0,90,12000,Def-Loss,False,0,0,0,Fire,0,0,0,0,-1,0,0,0
