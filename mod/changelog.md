@@ -74,7 +74,7 @@
 
 ## Manaeggs
 
-All manaeggs have been restructured. Each egg starts with 2 spells at level 1, and each page is locked until healf of the previous page is completed.
+All manaeggs have been restructured. Each egg starts with 2 spells at level 1, and each page is locked until half of the previous page is completed.
 
 ## Starting Stats
 
@@ -82,7 +82,7 @@ All manaeggs have been restructured. Each egg starts with 2 spells at level 1, a
 1. Now starts at Level 6. Starts with the `Warrior` Manaegg. Cancel Stun duration increased.
 
 #### Elena
-Cancel Stun duration increased.
+1. Cancel Stun duration increased.
 
 #### Millenia
 1. Now starts at Level 6. Cancel Stun duration increased.
