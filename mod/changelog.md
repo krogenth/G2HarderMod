@@ -72,6 +72,20 @@
 #### `Beast-King Blast`
 1. Has increased element strength from 80% to 100%.
 
+## Skills
+
+### New Skills
+
+#### Omnipotence
+1. Grants stat boosts for all stats: 5-80 HP, and 1-16 everything else.
+
+### Altered Skills
+
+#### General
+1. All stat increasing Skills have had their effectiveness reduced by half.
+2. All stat increasing skills are now uniform in level cost: 240/120/180/300/480.
+3. All spell increase skills now only increase 1 type each.
+
 ## Manaeggs
 
 All manaeggs have been restructured. Each egg starts with 2 spells at level 1, and each page is locked until half of the previous page is completed.
