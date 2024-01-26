@@ -39,7 +39,7 @@ Power Press,0,16,9,Physical Damage,100,260,70,One Enemy,False,0,0,0,270,13000,Ph
 ,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
 ,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
 ,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
-Attack,0,0,1,Physical Damage,55,140,70,One Enemy,True,400,100,0,60,9999,Physical Attack,False,1000,0,50,Earth,8,1,10,0,0,0,0,0
+Attack,0,0,1,Physical Damage,55,160,70,One Enemy,True,425,100,0,60,9999,Physical Attack,False,1000,0,50,Earth,8,1,10,0,0,0,0,0
 Power Press,0,16,9,Physical Damage,100,260,70,One Enemy,False,0,0,0,270,13000,Physical Attack,True,2500,3000,0,Fire,0,0,0,0,0,0,0,0
 ,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
 ,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
@@ -284,11 +284,6 @@ Magna Boring,0,70,1,Physical Damage,240,430,270,One Enemy,False,0,0,0,180,15000,
 Magna Ripper,0,50,1,Physical Damage,240,350,600,One Enemy,False,0,0,0,150,13000,Physical Attack,False,3000,5000,80,Fire,0,0,0,0,0,0,0,0
 BOOM!,22,0,1,Magical Damage,240,450,200,Area Enemies,False,0,0,600,90,12000,BOOM!,True,2000,0,120,Fire,0,0,0,0,0,0,0,0
 Gravity,8,0,1,Special,0,0,0,Area Enemies,False,0,0,800,60,11000,Gravity,False,0,0,0,Fire,0,0,0,0,0,0,0,12
-Attack,0,0,1,Physical Damage,50,115,50,One Enemy,True,20,100,0,60,9999,Physical Attack,False,0,0,50,Fire,0,0,0,0,0,0,0,0
-Web Trap,0,12,4,Physical Damage,50,120,100,One Enemy,False,0,0,0,420,12000,Physical Attack,False,1500,3000,0,Fire,0,0,0,0,0,0,-1,0
-Power Crush,0,34,9,Physical Damage,125,380,100,One Enemy,False,0,0,0,270,15000,Physical Attack,True,3000,5000,700,Wind,4,64,50,0,0,0,0,0
-,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
-,0,0,0,None,0,0,0,None,False,0,0,0,0,0,Physical Attack,False,0,0,0,Fire,0,0,0,0,0,0,0,0
 Combo,0,0,37,Physical Damage,55,120,60,One Enemy,True,50,110,0,30,9999,Physical Attack,False,0,0,80,Fire,0,0,0,0,0,0,0,0
 Burn!,6,0,37,Magical Damage,55,110,100,One Enemy,False,0,0,0,75,12000,Burn!,False,0,0,80,Fire,10,0,0,0,0,0,0,0
 Crackle,16,0,37,Magical Damage,55,110,125,One Enemy,False,0,0,0,100,11000,Crackle,True,0,0,50,Blizzard,10,0,0,0,0,0,0,0

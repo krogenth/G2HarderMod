@@ -152,20 +152,22 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 1. `Web Trap` damage has been increased.
 2. `Web Trap` now causes knockdown.
 3. `Web Trap` cast time has been reduced slightly.
-3. Now drops `Poison Antidote` instead of `Slowpoke Nut`, `Medical Herb` drop rate reduced to 5%.
+4. Now drops `Poison Antidote` instead of `Slowpoke Nut`, `Medical Herb` drop rate reduced to 5%.
 5. Is now resistant to `Poison` and `Paralysis`.
 6. Now has `Runner` and `Stun Spores` as spells.
+7. Slightly reduced Skill & magic coins.
 
 #### Dodo
-1. Has slightly increased health, and some evasion.
+1. Has slightly increased HP, and some evasion.
 2. Has reduced Vitality and Mentality.
-2. EXP, Gold, Skill, & Magic Coins dropped reduced by half.
-3. `Attack` now causes knockdown.
+3. EXP, Gold, Skill, & Magic Coins dropped slightly reduced.
+4. `Attack` now causes knockdown.
 
 #### Gargoyle
 1. Now can use 2 additional spells, `Diggin'` and `WOW!`.
 2. has slightly more HP, and reduced stun durations.
 3. No longer has a chance to drop `Holy Ashes`.
+4. Slightly reduced Skill & magic coins.
 
 #### Millenia(1st)
 1. Increased MP to help ensure `Zap!` can be cast.
