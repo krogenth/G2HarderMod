@@ -194,7 +194,7 @@ Dead Claw,0,28,35,Physical Damage,275,470,210,One Enemy,False,0,0,0,60,12000,Phy
 Hammer Claw,0,49,7,Physical Damage,275,310,260,Area Enemies,False,0,0,400,90,13000,Physical Attack,True,3000,0,300,Fire,0,0,0,0,0,0,0,0
 Day of Judgment,0,63,2,Magical Damage,275,430,350,All Enemies,False,0,0,0,150,18000,Physical Attack,False,500,0,50,Fire,0,0,0,0,0,0,0,23
 Vanish,0,16,2,Status Change,0,0,0,Unknown,False,0,0,0,120,15000,Vanish,False,0,0,0,Fire,0,0,0,0,0,0,0,22
-Crackle,1,0,1,Magical Damage,280,380,275,One Enemy,False,0,0,0,30,12000,Crackle,True,4000,0,50,Blizzard,10,0,0,0,0,0,0,0
+Attack,0,0,1,Physical Damage,125,140,80,One Enemy,True,600,150,0,30,9000,Physical Attack,False,0,0,80,Fire,0,0,0,0,0,0,0,0
 Poizn,1,0,7,Magical Damage,280,540,100,Area Enemies,False,0,0,600,30,13000,Poizn,False,0,0,0,Fire,0,1,100,0,0,0,0,0
 BA-BOOM!,1,0,2,Magical Damage,280,630,200,All Enemies,False,0,0,0,60,18000,BA-BOOM!,True,2000,0,150,Fire,0,0,0,0,0,0,0,0
 GadZap,1,0,9,Magical Damage,280,720,300,One Enemy,False,0,0,0,60,16000,GadZap,True,1500,0,80,Lightning,10,4,70,0,0,0,0,0

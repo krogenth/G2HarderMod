@@ -1,3 +1,7 @@
 # programs
 *.dll
 *.exe
+*.py
+
+# directories
+*/models/

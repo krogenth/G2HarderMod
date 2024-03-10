@@ -44,8 +44,9 @@
 
 #### `Impact Bomb`
 1. Has increased cast time, is now a small AoE.
-2. Has slightly reduced strength.
+2. Has significantly reduced strength.
 3. Causes significantly less IP damage.
+4. Does Magic Damage now.
 
 #### `Arrow Shot`
 1. Has increased cast time and slightly reduced strength.
@@ -172,9 +173,16 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 #### Millenia(1st)
 1. Increased MP to help ensure `Zap!` can be cast.
 
+#### Crag Snake
+1. Has slightly more HP, Agility, Speed, and Mentality.
+1. `Attack` has slightly increased distance.
+2. `Attack` has slightly increased power.
+3. Slightly reduced Skill & magic coins.
+
 ## Maps
 
 #### Witt Forest Path
+
 1. Enemy groups now contain 2 Mottled Spiders.
 2. Overworld Items altered.
 3. Recovery option at the save point has been removed.
@@ -188,3 +196,10 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 
 #### Garmia Tower, Third Floor
 1. All `Wound Salve` items replaced with `Medicinal Herb`.
+
+#### Inor Mountains 1
+1. All enemy groups containing 2 `Mottled Spider` now have a `Dodo` as well.
+2. Recovery option at the save point has been removed.
+
+#### Inor Mountains 2
+1. All enemy groups containing 2 `Mottled Spider` now have a `Dodo` as well.
