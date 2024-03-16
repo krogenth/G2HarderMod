@@ -175,9 +175,10 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 
 #### Crag Snake
 1. Has slightly more HP, Agility, Speed, and Mentality.
-1. `Attack` has slightly increased distance.
-2. `Attack` has slightly increased power.
-3. Slightly reduced Skill & magic coins.
+2. `Attack` has slightly increased distance.
+3. `Attack` has slightly increased power.
+4. Slightly reduced Skill & magic coins.
+5. Reduced Earth resistence from 50% to 20%.
 
 ## Maps
 
@@ -198,8 +199,8 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 1. All `Wound Salve` items replaced with `Medicinal Herb`.
 
 #### Inor Mountains 1
-1. All enemy groups containing 2 `Mottled Spider` now have a `Dodo` as well.
+1. Completely reworked most enemy groupings.
 2. Recovery option at the save point has been removed.
 
 #### Inor Mountains 2
-1. All enemy groups containing 2 `Mottled Spider` now have a `Dodo` as well.
+1. Completely reworked most enemy groupings.
