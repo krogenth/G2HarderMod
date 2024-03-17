@@ -50,6 +50,7 @@
 
 #### `Arrow Shot`
 1. Has increased cast time and slightly reduced strength.
+2. Is now a Line based cast with a small range.
 
 #### `Spellbinding Eye`
 1. Removed special attribute, is now a small AoE effect.
@@ -122,14 +123,14 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 
 #### Elena
 1. Now acts as a Mage, her HP, MOV, ACT, and STR/VIT have been reduced.
-2. She now has the second (3 points behind Millenia) highest MAG & highest MEN in the game.
+2. She now has the second (3 points behind Millenia) highest total MAG & highest MEN in the game.
 
 #### Millenia
 1. Now acts as a form of Glass Cannon for the party. Has reduced HP, VIT, and MEN, but the highest MAG stat.
 2. ACT and MOV are increased, attempting to fit the idea of being the "Wings" of Valmar, quick moving, but more frail.
 
 #### Roan
-1. Now acts as a general "Theif" for the party, wielding the highest ACT in the party, with overall good stats outside of HP.
+1. Now acts as a general "Theif" for the party, wielding the highest ACT in the party, with overall good stats outside of HP, MP, & SP.
 
 #### Tio
 1. Now attempts to act as a Bursty physical DPS, with reduced HP, MP/SP, and MAG.
@@ -156,7 +157,7 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 4. Now drops `Poison Antidote` instead of `Slowpoke Nut`, `Medical Herb` drop rate reduced to 5%.
 5. Is now resistant to `Poison` and `Paralysis`.
 6. Now has `Runner` and `Stun Spores` as spells.
-7. Slightly reduced Skill & magic coins.
+7. Slightly reduced Skill & Magic coins.
 
 #### Dodo
 1. Has slightly increased HP, and some evasion.
@@ -168,7 +169,7 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 1. Now can use 2 additional spells, `Diggin'` and `WOW!`.
 2. has slightly more HP, and reduced stun durations.
 3. No longer has a chance to drop `Holy Ashes`.
-4. Slightly reduced Skill & magic coins.
+4. Slightly reduced Skill & Magic coins.
 
 #### Millenia(1st)
 1. Increased MP to help ensure `Zap!` can be cast.
@@ -177,8 +178,32 @@ All characters now have (in total) reduced stats, and redesigned to fit general 
 1. Has slightly more HP, Agility, Speed, and Mentality.
 2. `Attack` has slightly increased distance.
 3. `Attack` has slightly increased power.
-4. Slightly reduced Skill & magic coins.
+4. Slightly reduced Skill & Magic coins.
 5. Reduced Earth resistence from 50% to 20%.
+
+#### Frost Frog
+1. Has slightly more HP.
+2. EXP, Gold, Skill, & Magic Coins dropped slightly reduced.
+3. `Attack` has slightly increased strength.
+
+#### Troglodyte
+1. EXP, Gold, Skill, & Magic coins dropped reduced.
+2. Stun duration & Cancel Stun duration reduced to 1/4 of original values.
+3. Evasion reduced to 0.
+4. Whirlwind Scroll replaced with Fireball Scroll.
+5. Speed reduced slightly.
+6. Stamina increased.
+7. Fire vulnerability increased from 30% to 50%.
+8. `Attack` strength increased signficantly.
+9. `Sleep Spawn` ailment chance reduced to 70%.
+10. New move, `Paralysis Spawn`, similar to `Sleep Spawn`.
+
+#### Durham Minotaur
+1. EXP & Skill coins dropped reduced.
+2. Stun duration & Cancel Stun duration reduced to 1/4 of original values.
+3. Speed & Stamina increased.
+4. `Attack` strength increased.
+5. `Tornado Horn` strength increased.
 
 ## Maps
 
